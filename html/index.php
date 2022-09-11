@@ -6,7 +6,7 @@
 	<head>
 		<title>AIS Radar</title>
 		<meta charset="utf-8" />
-		<meta http-equiv="refresh" content="120; URL=http://ais.lethal.click/">
+		<meta http-equiv="refresh" content="120; URL=#">
 		<link rel="stylesheet" href="leaflet.css"/>
 		<script src="leaflet.js"></script>
 		<script src="chart.min.js"></script>
