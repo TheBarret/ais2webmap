@@ -4,6 +4,7 @@ Plots markers from received AIS radio signals
 
 Its still a very basic/alpha stage, to get this working you need the following:
 - an RTL device (https://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/)
+- Make sure to download the sdr-rtl library (https://packages.debian.org/bullseye/rtl-sdr)
 - Download & Compile : https://github.com/dgiardini/rtl-ais
 - Run `rtl_ais -h 127.0.0.1 -P 10110`
 - Run `php -f parser.php`
