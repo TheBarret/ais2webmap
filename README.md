@@ -16,6 +16,10 @@ Its still a very basic/alpha stage, to get this working you need the following:
 The AIS receiver program will attempt to load the RTL library and sets up the SDR device, spits out data to the `UDP` defined address and port,
 then our php script will capture these messages so we create a nice barrier between our device and front-end.
 
+Now you want to run the `rtl-ais` in a `nohup <app> &` so it will run even if you log out.
+Make sure if you want to stop this, to do it properly with `kill -3 <pid>` and not aggressivly with `kill -9 <pid>`
+because you could create a faulty USB device status (unclosed device).
+
 Green markers are recent received signals, the purple markers are stale positions that have not seen any recent update.
 This can be due to bad/blocked reception or simply out of reach.
 
