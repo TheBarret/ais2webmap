@@ -47,7 +47,7 @@ function GetHistory($link,$mmsi) {
 	
 function CreateMap($layers) {
 	print("\n");
-	print("			var map = L.map('map').setView([52.084328,4.266643], 10);\n");
+	print("			var map = L.map('map').setView([0,0], 10);\n"); // your coords of your receiver
 	print("			var tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {\n");
 	print("			maxZoom: 50,\n");
 	print("			attribution: '&copy; OpenStreetMap + AIS Viewer',\n");
