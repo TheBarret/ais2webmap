@@ -7,6 +7,10 @@ Its still a very basic/alpha stage, to get this working you need the following:
 - Run `rtl_ais -h 127.0.0.1 -P 10110`
 - Run `php -f parser.php`
 
+![](https://i.imgur.com/96NV6e5.png)
+
+![](https://i.imgur.com/pT2gUQV.png)
+
 The AIS receiver program will attempt to load the RTL library and sets up the SDR device, spits out data to the `UDP` defined address and port,
 then our php script will capture these messages so we create a nice barrier between our device and front-end.
 
