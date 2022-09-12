@@ -6,6 +6,7 @@ Its still a very basic/alpha stage, to get this working you need the following:
 - an SDR device (https://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/)
 - Make sure to download the sdr-rtl library (https://packages.debian.org/bullseye/rtl-sdr)
 - Download & Compile : https://github.com/dgiardini/rtl-ais
+- Setup/import sql table from the `ais.sql` file with your db software (i used MariaDB)
 - Run `rtl_ais -h 127.0.0.1 -P 10110`
 - Run `php -f parser.php`
 
